@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50; /* Warna hijau untuk judul */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333; /* Warna teks untuk paragraf */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50; /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Ukuran font tombol */
+    transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna tombol saat hover */
+}
+
+#monkey-container {
+    display: none; /* Sembunyikan kontainer pada awalnya */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%; /* Gambar responsif */
+    height: auto;
+    border-radius: 10px; /* Sudut gambar yang membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk gambar */
+}
