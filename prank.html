@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prank Teman</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #monkey-container {
+            display: none; /* Sembunyikan kontainer pada awalnya */
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Prank Teman!</h1>
+    <p>Tekan tombol di bawah ini untuk mengetahui kamu mirip apa:</p>
+    
+    <button onclick="showImage()">Kamu mirip apa?</button>
+    
+    <div id="monkey-container">
+        <img id="monkey-image" src="https://th.bing.com/th/id/R.346411e76d5ab19fdc04753c097c4034?rik=UWbycydVyQqldg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-EGhiDswlzaI%2fThLGH8yfU5I%2fAAAAAAAAAEE%2fcAvue1U9A8w%2fs1600%2fmonyet1.jpg&ehk=k2mpUePYQeOmW0dDY5k%2bUWre7crqB0F9GKbNuKlf1Rs%3d&risl=&pid=ImgRaw&r=0" alt="Gambar Monyet">
+    </div>
+
+    <script>
+        function showImage() {
+            const container = document.getElementById('monkey-container');
+            container.style.display = 'flex'; // Tampilkan kontainer ketika tombol ditekan
+        }
+    </script>
+
+</body>
+</html>
